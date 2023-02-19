@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PlayerControllerBase : MonoBehaviour
 {
-    public Sprite[] walkAnimation;
+    public Sprite[] moveAnimation;
     public Sprite[] idleAnimation;
     public SpriteRenderer mySpriteRenderer;
 
@@ -16,6 +16,8 @@ public class PlayerControllerBase : MonoBehaviour
     protected KeyCode rightKey;
     protected KeyCode leftKey;
     // any other action keys
+
+    protected float offScreenVal; //TODO
 
     // Start is called before the first frame update
     protected virtual void Start()
@@ -30,30 +32,40 @@ public class PlayerControllerBase : MonoBehaviour
         float movementHorizontal = 0;
         float movementVertical = 0;
 
-        if (Input.GetKey(upKey))
+        if (Input.GetKey(upKey)) // jump
         {
             movementVertical = speed;
-            mySpriteRenderer.sprite = walkAnimation[0];
+            //mySpriteRenderer.sprite = moveAnimation[0];
         }
-        if (Input.GetKey(downKey))
+        if (Input.GetKey(downKey)) // crouch
         {
-            movementVertical = -speed;
-            mySpriteRenderer.sprite = walkAnimation[1];
+            //movementVertical = -speed;
+            //mySpriteRenderer.sprite = moveAnimation[1];
         }
         if (Input.GetKey(rightKey))
         {
             movementHorizontal = speed;
-            mySpriteRenderer.sprite = walkAnimation[2];
-            mySpriteRenderer.flipX = false;
+            //mySpriteRenderer.sprite = moveAnimation[2];
+            //mySpriteRenderer.flipX = false;
         }
         if (Input.GetKey(leftKey))
         {
             movementHorizontal = -speed;
-            mySpriteRenderer.sprite = walkAnimation[2];
-            mySpriteRenderer.flipX = true;
+            //mySpriteRenderer.sprite = moveAnimation[2];
+            //mySpriteRenderer.flipX = true;
         }
 
         Vector2 input = new Vector2(movementHorizontal, movementVertical);
         rb2D.velocity = input;
+    }
+
+    protected bool isOnScreen()
+    {
+        if (transform.position.y < offScreenVal)
+        {
+            return false;
+        }
+
+        return true;
     }
 }
