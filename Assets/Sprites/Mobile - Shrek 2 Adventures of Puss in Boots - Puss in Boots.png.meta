@@ -1,0 +1,2225 @@
+fileFormatVersion: 2
+guid: 6cd4d6411005847bc8dd92621dcda85b
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: front
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 407
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe6e62b38b4e64271bd924ad5d720994
+      internalID: -1196487357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Shrek 2 Adventures of Puss in Boots - Puss in Boots_1
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 404
+        width: 32
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25904bc4770f2431cbde0ec990d0724b
+      internalID: -363270584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: side1
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 375
+        width: 21
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b779364f6e3f42238bcb7b7ce4808a5
+      internalID: 1955696353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: side2
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 376
+        width: 18
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb388f8e207034d6aa80ffbdf924eb66
+      internalID: -1110418104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: side3
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 374
+        width: 21
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b409de2a6bbff49b6a802c59edbb41ff
+      internalID: -421535751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: side4
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 335
+        width: 14
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa9f0403899d04f9c961c8057c02bc8c
+      internalID: 1354331729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: side5
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 335
+        width: 17
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d75e93bc83534dd9b525e7f84efc89c
+      internalID: 270951878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fight1
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 295
+        width: 19
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fa6df4056b7d4fc0bb93401c34f536a
+      internalID: -1150176885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fight2
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 295
+        width: 32
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2da93c91808784f96a4c73dab6ee55ea
+      internalID: 604761479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reach
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 255
+        width: 14
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84d52d898534f4ceb850165c8fd745df
+      internalID: 936161799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idk
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 257
+        width: 15
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf259942176ae438fa66bcad59e3a993
+      internalID: 323306923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: climb1
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 215
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f384b5cdd75024c379a0a2ff9a3a484d
+      internalID: -1901602236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: climb2
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 216
+        width: 11
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36179b5105a594000a9c79f557f1cb27
+      internalID: 1301366202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crawl1
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 183
+        width: 23
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07c339cda3b9141b38e36c3c427a6cfe
+      internalID: 1489516841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crawl2
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 183
+        width: 24
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bab2fc2f414064450bac4dbb0cc0ad16
+      internalID: -1014495549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idk2
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 143
+        width: 17
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d77671900b3c480199bf64a7482c7ae
+      internalID: -814704886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crawl3
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 143
+        width: 25
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 302c683be0a6d4e9895cd18607d21fff
+      internalID: -542617383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Shrek 2 Adventures of Puss in Boots - Puss in Boots_17
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 148
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41ff0f99456894bcb89b871c873776e1
+      internalID: -1781455321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idk3
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 110
+        width: 16
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07e3f9daefa4d4f5fbad6c52d03a17e5
+      internalID: 1610649400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idk4
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 108
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47fecb9b990124e2db89bfe6e515ca86
+      internalID: 1368086346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idk5
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 70
+        width: 13
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8498e0dd891934aa68601b7631354ecc
+      internalID: 908182893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idk6
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 70
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40aa3d28165b14135a905b3acc406353
+      internalID: 267460648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fight3
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 67
+        width: 32
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3578eda4ea9014c89a6a1d96bb9279f7
+      internalID: -703165241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Shrek 2 Adventures of Puss in Boots - Puss in Boots_23
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 85
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46933fe3890e84c0bb383f6df821d972
+      internalID: -1042192780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Shrek 2 Adventures of Puss in Boots - Puss in Boots_24
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 74
+        width: 15
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4caa7c612ccf467284597155e8fbf63
+      internalID: 783124423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Shrek 2 Adventures of Puss in Boots - Puss in Boots_25
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 54
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 938029b5f7edb498082c3977e2de9d3e
+      internalID: -1674236796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Shrek 2 Adventures of Puss in Boots - Puss in Boots_26
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 54
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d51a0e24bb2f9424f923f757d48412cc
+      internalID: -1929009780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Shrek 2 Adventures of Puss in Boots - Puss in Boots_27
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 54
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e138e129e6ad749cebe67397898e5dde
+      internalID: 1702478438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Shrek 2 Adventures of Puss in Boots - Puss in Boots_28
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 54
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fd4ebc98f79040be98b1865051f49e4
+      internalID: -2038675302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Shrek 2 Adventures of Puss in Boots - Puss in Boots_29
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 54
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b243ca7373f04d4bbfab2f560c7881a
+      internalID: -922402026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Shrek 2 Adventures of Puss in Boots - Puss in Boots_30
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 54
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91604444bc0154a1dad05d0f040f2047
+      internalID: 1873218975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Shrek 2 Adventures of Puss in Boots - Puss in Boots_31
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 54
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9180f2864cf25422bbc90d2b3f597a0a
+      internalID: 876300365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Shrek 2 Adventures of Puss in Boots - Puss in Boots_32
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 54
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44e9b3ab153554aef9319a6a08fed26b
+      internalID: -244316058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Shrek 2 Adventures of Puss in Boots - Puss in Boots_33
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 54
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 774021ed12faa4c6aa8826630fb4fa72
+      internalID: 928608664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Shrek 2 Adventures of Puss in Boots - Puss in Boots_34
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 42
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9783f3cbebb094f2e85a1a1629412eb9
+      internalID: -316480241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Shrek 2 Adventures of Puss in Boots - Puss in Boots_35
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 42
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 769ac73142d3a4bc885cf09b90eae04d
+      internalID: -1406578218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Shrek 2 Adventures of Puss in Boots - Puss in Boots_36
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 42
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c3b4c879f283409f9c901ef693f2f4c
+      internalID: -1537271028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Shrek 2 Adventures of Puss in Boots - Puss in Boots_37
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 42
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37e96f5b66caa44b789683c7c36e661d
+      internalID: 597773582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Shrek 2 Adventures of Puss in Boots - Puss in Boots_38
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 42
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea5dfa773c2154f919fcb11c5c3cdd7c
+      internalID: 1059050693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Shrek 2 Adventures of Puss in Boots - Puss in Boots_39
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 42
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e74846d75ada45c3ab98125239e5279
+      internalID: 1805943819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Shrek 2 Adventures of Puss in Boots - Puss in Boots_40
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 42
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5316403b78872485f947e0677124c167
+      internalID: 331285690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Shrek 2 Adventures of Puss in Boots - Puss in Boots_41
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 42
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dc0859cad4b54ac8a31074b5fa39155
+      internalID: -301857566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Shrek 2 Adventures of Puss in Boots - Puss in Boots_42
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 29
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c158865387c074ad783ba59d6c94d683
+      internalID: 1879633633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Shrek 2 Adventures of Puss in Boots - Puss in Boots_43
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 29
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26e755ee4101e4e4f91aa58e92a8607e
+      internalID: 629373276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Shrek 2 Adventures of Puss in Boots - Puss in Boots_44
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 29
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a330397ca504465f9d5e9d086132f1a
+      internalID: 1480541925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Shrek 2 Adventures of Puss in Boots - Puss in Boots_45
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 29
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df3bcb04ce63742a2a1b19ca11da1221
+      internalID: -1072880538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Shrek 2 Adventures of Puss in Boots - Puss in Boots_46
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 29
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec112302752534658b77c33208d4470c
+      internalID: -1610456943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Shrek 2 Adventures of Puss in Boots - Puss in Boots_47
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 29
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90c7412c31af946d492b22b43fce4542
+      internalID: -461737471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Shrek 2 Adventures of Puss in Boots - Puss in Boots_48
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 29
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dea63715e225e404994f5b7872c70f4e
+      internalID: -835834659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Shrek 2 Adventures of Puss in Boots - Puss in Boots_49
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 29
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19cd4acd6dcb3423b84b0ac9a27128a8
+      internalID: 1101359774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Shrek 2 Adventures of Puss in Boots - Puss in Boots_50
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 29
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fbdb756d5611453c9ec39f47b6237f9
+      internalID: -750905167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Shrek 2 Adventures of Puss in Boots - Puss in Boots_51
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 29
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 114a5aa67890f42dcbf0a8ab299a3286
+      internalID: 1205898820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Shrek 2 Adventures of Puss in Boots - Puss in Boots_52
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 29
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1423c674466ad45dcb785e7647656a2b
+      internalID: -1943286431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Shrek 2 Adventures of Puss in Boots - Puss in Boots_53
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 29
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 066f6e1a468564666abc95494da04f22
+      internalID: -999090626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Shrek 2 Adventures of Puss in Boots - Puss in Boots_54
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 29
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bdec915cd1ba4f30b4fd0ac3405f18d
+      internalID: -162115115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Shrek 2 Adventures of Puss in Boots - Puss in Boots_55
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 29
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8be86ec77e7f42d4bc1ac7848a2a050
+      internalID: 40751828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Shrek 2 Adventures of Puss in Boots - Puss in Boots_56
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 29
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4efee3f17065a4e8fa1b9b5ecdf343fd
+      internalID: 135080868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Shrek 2 Adventures of Puss in Boots - Puss in Boots_57
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 29
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f363dab3b712146e79368659e0e17432
+      internalID: 298108221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Shrek 2 Adventures of Puss in Boots - Puss in Boots_58
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 29
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b0ec16a9adf743e890d259c80777e79
+      internalID: 1695001006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Shrek 2 Adventures of Puss in Boots - Puss in Boots_59
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 29
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 731d7a4051fb644b18fdd7094de88e89
+      internalID: 116310479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Shrek 2 Adventures of Puss in Boots - Puss in Boots_60
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 19
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fe4fbaf304224b0f88b41dd17dbe6f0
+      internalID: -923804432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Shrek 2 Adventures of Puss in Boots - Puss in Boots_61
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 17
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ee01d092703c416e9c981c463386fb2
+      internalID: -1797008609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Shrek 2 Adventures of Puss in Boots - Puss in Boots_62
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 17
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 064b28ef4da8b400eb71f9aece825ad8
+      internalID: 1455110590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Shrek 2 Adventures of Puss in Boots - Puss in Boots_63
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 19
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 808800645955a4c648589f15fd7ddc73
+      internalID: -1994813082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Shrek 2 Adventures of Puss in Boots - Puss in Boots_64
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 19
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c12b8eb5abc3146f5a2862ca60fd1dc5
+      internalID: -1479391303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Shrek 2 Adventures of Puss in Boots - Puss in Boots_65
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 19
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6aac1fefca754e6493413524b00338f
+      internalID: 688243984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Shrek 2 Adventures of Puss in Boots - Puss in Boots_66
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 17
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad0277dc8681a4b67817bc7ba43876f3
+      internalID: -1460883973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Shrek 2 Adventures of Puss in Boots - Puss in Boots_67
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 19
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9bdbaa0de20241b0ba16ffee9870701
+      internalID: 1704479546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Shrek 2 Adventures of Puss in Boots - Puss in Boots_68
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 19
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23a2af462f16e414eadaaa8eee02ef28
+      internalID: -1134103600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Shrek 2 Adventures of Puss in Boots - Puss in Boots_69
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 19
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5359b9e981d2e4937b3fcdf98cf56284
+      internalID: 283778418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Shrek 2 Adventures of Puss in Boots - Puss in Boots_70
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 19
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bed1d06c181045a2b35cf5676ac2679
+      internalID: -561588977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Shrek 2 Adventures of Puss in Boots - Puss in Boots_71
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 19
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c989110592564f7a952e56e25d05d7d
+      internalID: 255689171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Shrek 2 Adventures of Puss in Boots - Puss in Boots_72
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 17
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfd262bd3a9cf40cca8f59321f56ca97
+      internalID: -1751322505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Shrek 2 Adventures of Puss in Boots - Puss in Boots_73
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 19
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94b7c51cc449d4232b6bb029a47e569c
+      internalID: 94957537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Shrek 2 Adventures of Puss in Boots - Puss in Boots_74
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 19
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a409963ba77948049a80bda61a09e2c
+      internalID: 322327585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Shrek 2 Adventures of Puss in Boots - Puss in Boots_75
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 19
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 506a26e40901d4284a7f212c1346131f
+      internalID: -332412588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Shrek 2 Adventures of Puss in Boots - Puss in Boots_76
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 19
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bfb93aff455a4636aaf54ae4d4c1a72
+      internalID: -948609283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Shrek 2 Adventures of Puss in Boots - Puss in Boots_77
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 7
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae198e4c6a4eb4264aa40ade5f9462e1
+      internalID: 396770661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Shrek 2 Adventures of Puss in Boots - Puss in Boots_78
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 7
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0969f70d071ef43d2b96be94b81d2ae1
+      internalID: 1550790241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Shrek 2 Adventures of Puss in Boots - Puss in Boots_79
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 7
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a86d5bdf71d3e4879bb7f1216901d400
+      internalID: -1223146338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Shrek 2 Adventures of Puss in Boots - Puss in Boots_80
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 7
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e04d08baa26d14bf584a3dbd764f09e0
+      internalID: -1909127502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Shrek 2 Adventures of Puss in Boots - Puss in Boots_81
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 7
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 813de8bd1227b4c029104f4fcfec5905
+      internalID: -152399593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Shrek 2 Adventures of Puss in Boots - Puss in Boots_82
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 7
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c90f3e0d0f9b64c739b0b16a945f9537
+      internalID: 1714333242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Shrek 2 Adventures of Puss in Boots - Puss in Boots_83
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 7
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f1890eaff48344bda0bccffcebd1658
+      internalID: 1178843737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Shrek 2 Adventures of Puss in Boots - Puss in Boots_84
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 7
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79313b7d71ce64368b57e121b924561b
+      internalID: -1005966145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Shrek 2 Adventures of Puss in Boots - Puss in Boots_85
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 7
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec1232412a1db4da8b1ec59693ad0c49
+      internalID: -641099147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Shrek 2 Adventures of Puss in Boots - Puss in Boots_86
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 7
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 351c1a39d873947538c77934dba2ea1d
+      internalID: 614011008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Shrek 2 Adventures of Puss in Boots - Puss in Boots_87
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 7
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25dfad80e625942179c057081348f25d
+      internalID: -1500078282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Shrek 2 Adventures of Puss in Boots - Puss in Boots_88
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 7
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb4438a9f7a504bd58ebafb88f10f042
+      internalID: 1392743225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Shrek 2 Adventures of Puss in Boots - Puss in Boots_89
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 5
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee8df0468faa64b09b33a70260d941ee
+      internalID: -586423451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Shrek 2 Adventures of Puss in Boots - Puss in Boots_90
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 5
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e33d9656c119b4671b55979be2982feb
+      internalID: 248658121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Shrek 2 Adventures of Puss in Boots - Puss in Boots_91
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 7
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35dde29239df74da591e6c4952e25ba0
+      internalID: 994609384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Shrek 2 Adventures of Puss in Boots - Puss in Boots_92
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 7
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df09059ed82b5437dbd68731c6eae0d9
+      internalID: 361101513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Shrek 2 Adventures of Puss in Boots - Puss in Boots_93
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 7
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ccecc8cf5e5a4547a631727bf72f478
+      internalID: -506492653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Shrek 2 Adventures of Puss in Boots - Puss in Boots_94
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 7
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9db9f7faa2534d41875595b9f7f2ce1
+      internalID: -1493198739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Mobile - Shrek 2 Adventures of Puss in Boots - Puss in Boots_31: 876300365
+      Mobile - Shrek 2 Adventures of Puss in Boots - Puss in Boots_75: -332412588
+      Mobile - Shrek 2 Adventures of Puss in Boots - Puss in Boots_78: 1550790241
+      Mobile - Shrek 2 Adventures of Puss in Boots - Puss in Boots_59: 116310479
+      Mobile - Shrek 2 Adventures of Puss in Boots - Puss in Boots_77: 396770661
+      Mobile - Shrek 2 Adventures of Puss in Boots - Puss in Boots_83: 1178843737
+      Mobile - Shrek 2 Adventures of Puss in Boots - Puss in Boots_61: -1797008609
+      Mobile - Shrek 2 Adventures of Puss in Boots - Puss in Boots_24: 783124423
+      Mobile - Shrek 2 Adventures of Puss in Boots - Puss in Boots_40: 331285690
+      Mobile - Shrek 2 Adventures of Puss in Boots - Puss in Boots_65: 688243984
+      Mobile - Shrek 2 Adventures of Puss in Boots - Puss in Boots_57: 298108221
+      Mobile - Shrek 2 Adventures of Puss in Boots - Puss in Boots_93: -506492653
+      Mobile - Shrek 2 Adventures of Puss in Boots - Puss in Boots_52: -1943286431
+      Mobile - Shrek 2 Adventures of Puss in Boots - Puss in Boots_26: -1929009780
+      Mobile - Shrek 2 Adventures of Puss in Boots - Puss in Boots_79: -1223146338
+      crawl1: 1489516841
+      idk2: -814704886
+      Mobile - Shrek 2 Adventures of Puss in Boots - Puss in Boots_86: 614011008
+      Mobile - Shrek 2 Adventures of Puss in Boots - Puss in Boots_43: 629373276
+      Mobile - Shrek 2 Adventures of Puss in Boots - Puss in Boots_80: -1909127502
+      Mobile - Shrek 2 Adventures of Puss in Boots - Puss in Boots_46: -1610456943
+      Mobile - Shrek 2 Adventures of Puss in Boots - Puss in Boots_41: -301857566
+      Mobile - Shrek 2 Adventures of Puss in Boots - Puss in Boots_55: 40751828
+      crawl3: -542617383
+      Mobile - Shrek 2 Adventures of Puss in Boots - Puss in Boots_72: -1751322505
+      Mobile - Shrek 2 Adventures of Puss in Boots - Puss in Boots_28: -2038675302
+      Mobile - Shrek 2 Adventures of Puss in Boots - Puss in Boots_32: -244316058
+      Mobile - Shrek 2 Adventures of Puss in Boots - Puss in Boots_30: 1873218975
+      Mobile - Shrek 2 Adventures of Puss in Boots - Puss in Boots_85: -641099147
+      Mobile - Shrek 2 Adventures of Puss in Boots - Puss in Boots_58: 1695001006
+      Mobile - Shrek 2 Adventures of Puss in Boots - Puss in Boots_69: 283778418
+      Mobile - Shrek 2 Adventures of Puss in Boots - Puss in Boots_48: -835834659
+      Mobile - Shrek 2 Adventures of Puss in Boots - Puss in Boots_47: -461737471
+      Mobile - Shrek 2 Adventures of Puss in Boots - Puss in Boots_37: 597773582
+      front: -1196487357
+      Mobile - Shrek 2 Adventures of Puss in Boots - Puss in Boots_71: 255689171
+      Mobile - Shrek 2 Adventures of Puss in Boots - Puss in Boots_50: -750905167
+      Mobile - Shrek 2 Adventures of Puss in Boots - Puss in Boots_39: 1805943819
+      Mobile - Shrek 2 Adventures of Puss in Boots - Puss in Boots_62: 1455110590
+      Mobile - Shrek 2 Adventures of Puss in Boots - Puss in Boots_44: 1480541925
+      side2: -1110418104
+      Mobile - Shrek 2 Adventures of Puss in Boots - Puss in Boots_84: -1005966145
+      Mobile - Shrek 2 Adventures of Puss in Boots - Puss in Boots_49: 1101359774
+      idk3: 1610649400
+      fight3: -703165241
+      Mobile - Shrek 2 Adventures of Puss in Boots - Puss in Boots_92: 361101513
+      Mobile - Shrek 2 Adventures of Puss in Boots - Puss in Boots_70: -561588977
+      fight1: -1150176885
+      Mobile - Shrek 2 Adventures of Puss in Boots - Puss in Boots_17: -1781455321
+      Mobile - Shrek 2 Adventures of Puss in Boots - Puss in Boots_82: 1714333242
+      side3: -421535751
+      Mobile - Shrek 2 Adventures of Puss in Boots - Puss in Boots_76: -948609283
+      fight2: 604761479
+      climb2: 1301366202
+      side4: 1354331729
+      Mobile - Shrek 2 Adventures of Puss in Boots - Puss in Boots_54: -162115115
+      Mobile - Shrek 2 Adventures of Puss in Boots - Puss in Boots_45: -1072880538
+      Mobile - Shrek 2 Adventures of Puss in Boots - Puss in Boots_33: 928608664
+      Mobile - Shrek 2 Adventures of Puss in Boots - Puss in Boots_90: 248658121
+      Mobile - Shrek 2 Adventures of Puss in Boots - Puss in Boots_36: -1537271028
+      Mobile - Shrek 2 Adventures of Puss in Boots - Puss in Boots_51: 1205898820
+      Mobile - Shrek 2 Adventures of Puss in Boots - Puss in Boots_81: -152399593
+      Mobile - Shrek 2 Adventures of Puss in Boots - Puss in Boots_53: -999090626
+      Mobile - Shrek 2 Adventures of Puss in Boots - Puss in Boots_60: -923804432
+      Mobile - Shrek 2 Adventures of Puss in Boots - Puss in Boots_87: -1500078282
+      idk6: 267460648
+      Mobile - Shrek 2 Adventures of Puss in Boots - Puss in Boots_67: 1704479546
+      Mobile - Shrek 2 Adventures of Puss in Boots - Puss in Boots_35: -1406578218
+      Mobile - Shrek 2 Adventures of Puss in Boots - Puss in Boots_34: -316480241
+      crawl2: -1014495549
+      Mobile - Shrek 2 Adventures of Puss in Boots - Puss in Boots_63: -1994813082
+      Mobile - Shrek 2 Adventures of Puss in Boots - Puss in Boots_66: -1460883973
+      Mobile - Shrek 2 Adventures of Puss in Boots - Puss in Boots_23: -1042192780
+      Mobile - Shrek 2 Adventures of Puss in Boots - Puss in Boots_1: -363270584
+      side5: 270951878
+      Mobile - Shrek 2 Adventures of Puss in Boots - Puss in Boots_88: 1392743225
+      Mobile - Shrek 2 Adventures of Puss in Boots - Puss in Boots_25: -1674236796
+      Mobile - Shrek 2 Adventures of Puss in Boots - Puss in Boots_64: -1479391303
+      Mobile - Shrek 2 Adventures of Puss in Boots - Puss in Boots_73: 94957537
+      Mobile - Shrek 2 Adventures of Puss in Boots - Puss in Boots_89: -586423451
+      Mobile - Shrek 2 Adventures of Puss in Boots - Puss in Boots_94: -1493198739
+      reach: 936161799
+      side1: 1955696353
+      Mobile - Shrek 2 Adventures of Puss in Boots - Puss in Boots_29: -922402026
+      climb1: -1901602236
+      Mobile - Shrek 2 Adventures of Puss in Boots - Puss in Boots_68: -1134103600
+      Mobile - Shrek 2 Adventures of Puss in Boots - Puss in Boots_38: 1059050693
+      Mobile - Shrek 2 Adventures of Puss in Boots - Puss in Boots_91: 994609384
+      Mobile - Shrek 2 Adventures of Puss in Boots - Puss in Boots_56: 135080868
+      idk5: 908182893
+      Mobile - Shrek 2 Adventures of Puss in Boots - Puss in Boots_42: 1879633633
+      Mobile - Shrek 2 Adventures of Puss in Boots - Puss in Boots_74: 322327585
+      idk4: 1368086346
+      Mobile - Shrek 2 Adventures of Puss in Boots - Puss in Boots_27: 1702478438
+      idk: 323306923
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
