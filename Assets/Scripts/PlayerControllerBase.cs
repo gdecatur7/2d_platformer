@@ -28,7 +28,7 @@ public class PlayerControllerBase : MonoBehaviour
 
     private Vector2 input;
     private bool shouldJump;
-    public float isGrounded;
+    private float isGrounded;
 
     protected Rigidbody2D rb2D;
     protected float offScreenVal; //TODO
