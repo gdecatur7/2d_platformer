@@ -223,11 +223,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4af437017683e420c87f4ef732572aa1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveAnimation: []
-  idleAnimation: []
-  mySpriteRenderer: {fileID: 0}
   speed: 5
-  jumpForce: 15
+  jumpForce: 25
   gravityScale: 10
   fallingGravityScale: 40
   upKey: 273
@@ -237,4 +234,3 @@ MonoBehaviour:
   groundLayer:
     serializedVersion: 2
     m_Bits: 64
-  isGrounded: 0
