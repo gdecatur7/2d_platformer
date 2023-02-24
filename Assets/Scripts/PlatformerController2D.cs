@@ -33,10 +33,10 @@ public class PlatformerController2D : Controller2D
         relativeVelocity = vel;
 
         UpdateGrounding();
-        if(onMovingPlatform != null)
-        {
-            vel.x += onMovingPlatform.rb2d.velocity.x;
-        }
+        //if(onMovingPlatform != null)
+        //{
+        //    vel.x += onMovingPlatform.rb2d.velocity.x;
+        //}
 
         bool inputJump = Input.GetKeyDown(KeyCode.Space);
         if (inputJump && grounded) {
@@ -78,7 +78,7 @@ public class PlatformerController2D : Controller2D
 
     public void CollectCoin()
     {
-        audioSource.PlayOneShot(coinsound);
+        //audioSource.PlayOneShot(coinsound);
     }
 
     IEnumerator Invulnerability(float time)

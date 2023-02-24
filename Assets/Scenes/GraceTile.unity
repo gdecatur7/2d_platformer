@@ -403,6 +403,10 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 7879533623567472810, guid: d132c01a0c1fb4154afee9db8b0b031f, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 7587737496524196006, guid: d132c01a0c1fb4154afee9db8b0b031f, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: d132c01a0c1fb4154afee9db8b0b031f, type: 3}
@@ -1448,6 +1452,32 @@ PolygonCollider2D:
       - {x: -0.018181818, y: -0.74545455}
       - {x: -0.12727273, y: -0.6727272}
       - {x: -0.16363636, y: -0.6545454}
+--- !u!114 &1530339024
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1530339016}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 41b9dac744e9648f681dae5fa9a4255f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 0
+  grounded: 0
+  groundLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  groundRayLength: 0.1
+  groundRaySpread: 0.1
+  relativeVelocity: {x: 0, y: 0}
+  jumpforce: 0
+  lives: 5
+  jumpsound: {fileID: 0}
+  hitsound: {fileID: 0}
+  coinsound: {fileID: 0}
+  killsound: {fileID: 0}
 --- !u!1 &1630123931
 GameObject:
   m_ObjectHideFlags: 0
