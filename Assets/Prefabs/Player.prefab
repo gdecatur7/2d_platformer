@@ -123,10 +123,10 @@ MonoBehaviour:
   moveAnimation: []
   idleAnimation: []
   mySpriteRenderer: {fileID: 0}
-  speed: 4
-  jumpForce: 7
-  gravityScale: 2
-  fallingGravityScale: 10
+  speed: 10
+  jumpForce: 12
+  gravityScale: 10
+  fallingGravityScale: 40
   upKey: 273
   downKey: 274
   rightKey: 275

@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UIElements;
 
 public class PlayerControllerBase : MonoBehaviour
 {
@@ -13,16 +14,23 @@ public class PlayerControllerBase : MonoBehaviour
     public float jumpForce;
     public float gravityScale = 10;
     public float fallingGravityScale = 40;
-    protected Rigidbody2D rb2D;
-    private Vector2 input;
-    private bool shouldJump,canJump;
 
+    //Action keys
     public KeyCode upKey;
     public KeyCode downKey;
     public KeyCode rightKey;
     public KeyCode leftKey;
-    // any other action keys
 
+
+
+    public LayerMask groundLayer;
+
+
+    private Vector2 input;
+    private bool shouldJump;
+    private float isGrounded;
+
+    protected Rigidbody2D rb2D;
     protected float offScreenVal; //TODO
 
     // Start is called before the first frame update
@@ -30,7 +38,6 @@ public class PlayerControllerBase : MonoBehaviour
     {
         rb2D = GetComponent<Rigidbody2D>();
         mySpriteRenderer = GetComponent<SpriteRenderer>();
-        canJump = false;
     }
 
     // Update is called once per frame
@@ -40,7 +47,7 @@ public class PlayerControllerBase : MonoBehaviour
         float movementVertical = rb2D.velocity.y;
         shouldJump = false;
 
-        if (Input.GetKey(upKey) && canJump) // jump
+        if (Input.GetKey(upKey)) // jump
         {
             shouldJump = true;
             //mySpriteRenderer.sprite = moveAnimation[0];
@@ -72,7 +79,9 @@ public class PlayerControllerBase : MonoBehaviour
 
         rb2D.velocity = input;
 
-        if (shouldJump){
+        Debug.Log(shouldJump);
+        if (shouldJump && IsGrounded()){
+            Debug.Log("HEllo");
             rb2D.AddForce(Vector2.up * jumpForce * 1, ForceMode2D.Impulse);
         }
 
@@ -97,20 +106,22 @@ public class PlayerControllerBase : MonoBehaviour
         return true;
     }
 
-    void OnCollisionEnter2D(Collision2D col)
+
+    bool IsGrounded()
     {
-        if (col.gameObject.CompareTag("Ground"))
+        Vector2 position = transform.position;
+        Vector2 direction = Vector2.down;
+        float distance = 1.0f;
+
+        RaycastHit2D hit = Physics2D.Raycast(position, direction,
+            distance, groundLayer);
+        if (hit.collider != null)
         {
-            canJump = true;
+            return true;
         }
+        Debug.DrawRay(position, direction, Color.green);
+
+        return false;
     }
 
-
-    private void OnCollisionExit2D(Collision2D collision)
-    {
-        if (collision.gameObject.CompareTag("Ground"))
-        {
-            canJump = false;
-        }
-    }
 }

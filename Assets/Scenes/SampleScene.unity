@@ -220,7 +220,7 @@ GameObject:
   - component: {fileID: 2028047266}
   m_Layer: 0
   m_Name: Square
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -326,16 +326,20 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: -4666697456335663231, guid: e5efbaabe39714cfca20040833572ad4, type: 3}
+      propertyPath: speed
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: -4666697456335663231, guid: e5efbaabe39714cfca20040833572ad4, type: 3}
       propertyPath: jumpForce
-      value: 7
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: -4666697456335663231, guid: e5efbaabe39714cfca20040833572ad4, type: 3}
       propertyPath: gravityScale
-      value: 2
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: -4666697456335663231, guid: e5efbaabe39714cfca20040833572ad4, type: 3}
       propertyPath: fallingGravityScale
-      value: 10
+      value: 40
       objectReference: {fileID: 0}
     - target: {fileID: 3456192768513203706, guid: e5efbaabe39714cfca20040833572ad4, type: 3}
       propertyPath: m_Name
@@ -384,10 +388,6 @@ PrefabInstance:
     - target: {fileID: 5497236587793413633, guid: e5efbaabe39714cfca20040833572ad4, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7796504877057460377, guid: e5efbaabe39714cfca20040833572ad4, type: 3}
-      propertyPath: m_CollisionDetection
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e5efbaabe39714cfca20040833572ad4, type: 3}
