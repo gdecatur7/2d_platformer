@@ -9,8 +9,8 @@ public class HeartsUI : MonoBehaviour
     private int heartsVisible;
 
     private static HeartsUI instance;
-    
-    void Start()
+
+    void Awake()
     {
         instance = this;
         heartsVisible = hearts.Length;
