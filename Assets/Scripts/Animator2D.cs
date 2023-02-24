@@ -22,7 +22,7 @@ public class Animator2D : MonoBehaviour
 
     protected Rigidbody2D rb2D;
     //protected PlayerControllerBase controller;
-    protected PracticeController controller;
+    protected PlayerControllerBase controller;
     public SpriteRenderer mySpriteRenderer;
 
     protected float frameTimer = 0;
@@ -42,7 +42,7 @@ public class Animator2D : MonoBehaviour
 
         rb2D = GetComponent<Rigidbody2D>();
         mySpriteRenderer = GetComponent<SpriteRenderer>();
-        controller = GetComponent<PracticeController>();
+        controller = GetComponent<PlayerControllerBase>();
         //controller = GetComponent<PlayerControllerBase>();
     }
 
@@ -85,7 +85,7 @@ public class Animator2D : MonoBehaviour
 
     AnimationState GetAnimationState()
     {
-        if (!controller.grounded)
+        if (!controller.IsGrounded())
         {
             return AnimationState.jump;
         }

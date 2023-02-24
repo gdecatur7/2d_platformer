@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 9127391136506181621}
   - component: {fileID: 7879533623567472810}
   - component: {fileID: 1530339023}
-  - component: {fileID: 1530339024}
+  - component: {fileID: 1642400178}
   m_Layer: 0
   m_Name: Viking
   m_TagString: Untagged
@@ -105,11 +105,11 @@ Rigidbody2D:
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 0
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 10e3434a0f32a4c2c873fddae8b5d946, type: 2}
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!114 &9127391136506181621
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -211,7 +211,7 @@ PolygonCollider2D:
       - {x: -0.018181818, y: -0.74545455}
       - {x: -0.12727273, y: -0.6727272}
       - {x: -0.16363636, y: -0.6545454}
---- !u!114 &1530339024
+--- !u!114 &1642400178
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -220,20 +220,20 @@ MonoBehaviour:
   m_GameObject: {fileID: 3045558720892592258}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 41b9dac744e9648f681dae5fa9a4255f, type: 3}
+  m_Script: {fileID: 11500000, guid: 4af437017683e420c87f4ef732572aa1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 2
-  grounded: 0
-  groundLayers:
+  moveAnimation: []
+  idleAnimation: []
+  mySpriteRenderer: {fileID: 0}
+  speed: 5
+  jumpForce: 15
+  gravityScale: 2
+  fallingGravityScale: 0
+  upKey: 273
+  downKey: 274
+  rightKey: 275
+  leftKey: 276
+  groundLayer:
     serializedVersion: 2
-    m_Bits: 0
-  groundRayLength: 0.1
-  groundRaySpread: 0.1
-  relativeVelocity: {x: 0, y: 0}
-  jumpforce: 0
-  lives: 5
-  jumpsound: {fileID: 0}
-  hitsound: {fileID: 0}
-  coinsound: {fileID: 0}
-  killsound: {fileID: 0}
+    m_Bits: 64

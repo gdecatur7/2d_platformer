@@ -28,7 +28,7 @@ public class PlayerControllerBase : MonoBehaviour
 
     private Vector2 input;
     private bool shouldJump;
-    private float isGrounded;
+    public float isGrounded;
 
     protected Rigidbody2D rb2D;
     protected float offScreenVal; //TODO
@@ -107,7 +107,7 @@ public class PlayerControllerBase : MonoBehaviour
     }
 
 
-    bool IsGrounded()
+    public bool IsGrounded()
     {
         Vector2 position = transform.position;
         Vector2 direction = Vector2.down;
