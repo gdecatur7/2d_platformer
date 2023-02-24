@@ -6,10 +6,6 @@ using UnityEngine.UIElements;
 
 public class PlayerControllerBase : MonoBehaviour
 {
-    public Sprite[] moveAnimation;
-    public Sprite[] idleAnimation;
-    public SpriteRenderer mySpriteRenderer;
-
     public float speed;
     public float jumpForce;
     public float gravityScale = 10;
@@ -21,14 +17,13 @@ public class PlayerControllerBase : MonoBehaviour
     public KeyCode rightKey;
     public KeyCode leftKey;
 
-
-
     public LayerMask groundLayer;
 
 
     private Vector2 input;
     private bool shouldJump;
     private float isGrounded;
+    private Animator2D animation;
 
     protected Rigidbody2D rb2D;
     protected float offScreenVal; //TODO
@@ -37,7 +32,7 @@ public class PlayerControllerBase : MonoBehaviour
     protected virtual void Start()
     {
         rb2D = GetComponent<Rigidbody2D>();
-        mySpriteRenderer = GetComponent<SpriteRenderer>();
+        animation = GetComponent<Animator2D>();
     }
 
     // Update is called once per frame
@@ -47,27 +42,23 @@ public class PlayerControllerBase : MonoBehaviour
         float movementVertical = rb2D.velocity.y;
         shouldJump = false;
 
+
         if (Input.GetKey(upKey)) // jump
         {
             shouldJump = true;
-            //mySpriteRenderer.sprite = moveAnimation[0];
         }
         if (Input.GetKey(downKey)) // crouch
         {
-            //movementVertical = -1 * speed;
-            //mySpriteRenderer.sprite = moveAnimation[1];
+
         }
         if (Input.GetKey(rightKey))
         {
             movementHorizontal = 1 * speed;
-            //mySpriteRenderer.sprite = moveAnimation[2];
-            //mySpriteRenderer.flipX = false;
+
         }
         if (Input.GetKey(leftKey))
         {
             movementHorizontal = -1 * speed;
-            //mySpriteRenderer.sprite = moveAnimation[2];
-            //mySpriteRenderer.flipX = true;
         }
 
         input = new Vector2(movementHorizontal, movementVertical);
@@ -79,9 +70,7 @@ public class PlayerControllerBase : MonoBehaviour
 
         rb2D.velocity = input;
 
-        Debug.Log(shouldJump);
         if (shouldJump && IsGrounded()){
-            Debug.Log("HEllo");
             rb2D.AddForce(Vector2.up * jumpForce * 1, ForceMode2D.Impulse);
         }
 
@@ -109,9 +98,17 @@ public class PlayerControllerBase : MonoBehaviour
 
     public bool IsGrounded()
     {
+        float reducePosition = (float)0.28;
+        float distance = 1.0f;
         Vector2 position = transform.position;
         Vector2 direction = Vector2.down;
-        float distance = 1.0f;
+
+        if (animation.isPlayerFlipped())
+        {
+            reducePosition = -reducePosition;
+        }
+        position.x -= reducePosition;
+
 
         RaycastHit2D hit = Physics2D.Raycast(position, direction,
             distance, groundLayer);
@@ -119,7 +116,8 @@ public class PlayerControllerBase : MonoBehaviour
         {
             return true;
         }
-        Debug.DrawRay(position, direction, Color.green);
+        Debug.DrawRay(position, direction * 1, Color.green);
+
 
         return false;
     }

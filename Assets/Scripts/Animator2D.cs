@@ -29,6 +29,7 @@ public class Animator2D : MonoBehaviour
     protected int frameIndex = 0;
     public AnimationState state = AnimationState.idle;
     protected Dictionary<AnimationState, Sprite[]> animationAtlas;
+    private bool flipped;
 
     // Start is called before the first frame update
     void Start()
@@ -44,6 +45,7 @@ public class Animator2D : MonoBehaviour
         mySpriteRenderer = GetComponent<SpriteRenderer>();
         controller = GetComponent<PlayerControllerBase>();
         //controller = GetComponent<PlayerControllerBase>();
+        flipped = false;
     }
 
     // Update is called once per frame
@@ -67,12 +69,15 @@ public class Animator2D : MonoBehaviour
 
         if (rb2D.velocity.x < -0.01f)
         {
-            mySpriteRenderer.flipX = true;
+            transform.localScale = new Vector3(-1, 1, 1);
+            flipped = true;
         }
 
         if (rb2D.velocity.x > 0.01f)
         {
-            mySpriteRenderer.flipX = false;
+            transform.localScale = new Vector3(1, 1, 1);
+            flipped = false;
+
         }
     }
 
@@ -94,5 +99,10 @@ public class Animator2D : MonoBehaviour
             return AnimationState.walk;
         }
         return AnimationState.idle;
+    }
+
+    public bool isPlayerFlipped()
+    {
+        return flipped;
     }
 }
