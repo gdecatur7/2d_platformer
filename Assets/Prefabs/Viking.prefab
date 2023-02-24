@@ -228,8 +228,8 @@ MonoBehaviour:
   mySpriteRenderer: {fileID: 0}
   speed: 5
   jumpForce: 15
-  gravityScale: 2
-  fallingGravityScale: 0
+  gravityScale: 10
+  fallingGravityScale: 40
   upKey: 273
   downKey: 274
   rightKey: 275
@@ -237,3 +237,4 @@ MonoBehaviour:
   groundLayer:
     serializedVersion: 2
     m_Bits: 64
+  isGrounded: 0
