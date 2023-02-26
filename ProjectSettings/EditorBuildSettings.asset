@@ -8,4 +8,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/SampleScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/StartScene.unity
+    guid: 8c5a7f7e3afd449578a894f660ebf96d
+  - enabled: 1
+    path: Assets/Scenes/GraceTile.unity
+    guid: 5e4800ec37e044fdbaaff78da60865ba
   m_configObjects: {}
