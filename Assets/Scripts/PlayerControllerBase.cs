@@ -21,7 +21,6 @@ public class PlayerControllerBase : MonoBehaviour
 
 
     private Vector2 input;
-    private bool shouldJump;
     private float isGrounded;
     private Animator2D animation;
 
@@ -38,52 +37,9 @@ public class PlayerControllerBase : MonoBehaviour
     // Update is called once per frame
     protected void Update()
     {
-        float movementHorizontal = 0;
-        float movementVertical = rb2D.velocity.y;
-        shouldJump = false;
-
-
-        if (Input.GetKey(upKey)) // jump
-        {
-            shouldJump = true;
-        }
-        if (Input.GetKey(downKey)) // crouch
-        {
-
-        }
-        if (Input.GetKey(rightKey))
-        {
-            movementHorizontal = 1 * speed;
-
-        }
-        if (Input.GetKey(leftKey))
-        {
-            movementHorizontal = -1 * speed;
-        }
-
-        input = new Vector2(movementHorizontal, movementVertical);
-    }
-
-
-    void FixedUpdate()
-    {
-
-        rb2D.velocity = input;
-
-        if (shouldJump && IsGrounded()){
-            rb2D.AddForce(Vector2.up * jumpForce * 1, ForceMode2D.Impulse);
-        }
-
-        if (rb2D.velocity.y < 0)
-        {
-            rb2D.gravityScale = fallingGravityScale;
-        } else
-        {
-            rb2D.gravityScale = gravityScale;
-        }
+        handleMovement();
 
     }
-
 
     protected bool isOnScreen()
     {
@@ -95,7 +51,9 @@ public class PlayerControllerBase : MonoBehaviour
         return true;
     }
 
-
+    /**
+     * isGrounded - Method for groundChecking of player character
+     */
     public bool IsGrounded()
     {
         float reducePosition = (float)0.28;
@@ -122,4 +80,44 @@ public class PlayerControllerBase : MonoBehaviour
         return false;
     }
 
+    /**
+     * handleMovement - Function for handling basic movement of character
+     */
+    private void handleMovement()
+    {
+
+        if (Input.GetKeyDown(upKey)) // jump
+        {
+            if (IsGrounded())
+            {
+                rb2D.AddForce(Vector2.up * jumpForce * 1, ForceMode2D.Impulse);
+            }
+        }
+
+        float movementHorizontal = 0;
+        float movementVertical = rb2D.velocity.y;
+
+        // Movement Left or right
+        if (Input.GetKey(rightKey))
+        {
+            movementHorizontal = 1 * speed;
+
+        }
+        if (Input.GetKey(leftKey))
+        {
+            movementHorizontal = -1 * speed;
+        }
+
+        input = new Vector2(movementHorizontal, movementVertical);
+        rb2D.velocity = input;
+
+        if (rb2D.velocity.y < 0)
+        {
+            rb2D.gravityScale = fallingGravityScale;
+        }
+        else
+        {
+            rb2D.gravityScale = gravityScale;
+        }
+    }
 }
