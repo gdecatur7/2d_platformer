@@ -730,10 +730,6 @@ PrefabInstance:
       propertyPath: playerFollowSecond
       value: 
       objectReference: {fileID: 1913449875}
-    - target: {fileID: 5890374467517568639, guid: 08cb2e00bd58f4aeb9f78845284470b4, type: 3}
-      propertyPath: orthographic size
-      value: 8
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 08cb2e00bd58f4aeb9f78845284470b4, type: 3}
 --- !u!1 &1013703481

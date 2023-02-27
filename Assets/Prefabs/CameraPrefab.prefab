@@ -99,3 +99,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerFollow: {fileID: 0}
   playerFollowSecond: {fileID: 0}
+  offset: 1.25
+  offsetSmoothing: 2
