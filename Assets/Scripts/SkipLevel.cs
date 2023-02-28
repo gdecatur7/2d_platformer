@@ -19,6 +19,7 @@ public class SkipLevel : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Return))
         {
             SceneManager.GetSceneAt(sceneIndex);
+            sceneIndex++;
             //SceneManager.LoadScene("name");
             SceneManager.UnloadSceneAsync(SceneManager.GetActiveScene().name);
         }
