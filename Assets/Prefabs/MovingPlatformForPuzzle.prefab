@@ -43,9 +43,9 @@ GameObject:
   - component: {fileID: 2391202658323246260}
   - component: {fileID: 2391202658323246262}
   - component: {fileID: 632640362}
-  - component: {fileID: -7477858846358238852}
+  - component: {fileID: 632640361}
   m_Layer: 9
-  m_Name: MovingPlatform
+  m_Name: MovingPlatformForPuzzle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -167,7 +167,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &-7477858846358238852
+--- !u!114 &632640361
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -176,17 +176,17 @@ MonoBehaviour:
   m_GameObject: {fileID: 2391202658323246257}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7937c106eb0d84ce5ac9289e54f5821a, type: 3}
+  m_Script: {fileID: 11500000, guid: 5fe28fe6e7d2d44ce954a7714ecb5521, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 5
   accelerate: 1
   patrolPoints:
   - {fileID: 2391202659106247240}
-  - {fileID: 2391202658181727002}
   rb2d: {fileID: 0}
   pauseAtPatrolPoint: 0
-  shouldMove: 1
+  shouldMove: 0
+  button: {fileID: 0}
 --- !u!1 &2391202659106247243
 GameObject:
   m_ObjectHideFlags: 0
