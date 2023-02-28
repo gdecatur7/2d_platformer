@@ -129,30 +129,9 @@ public class PlayerControllerBase : MonoBehaviour
     private void OnCollisionStay2D(Collision2D collision)
     {
         Controller2D controller = collision.gameObject.GetComponent<Controller2D>();
-        if (controller != null && collision.gameObject.CompareTag("Obstacle"))
+        if (collision.gameObject.CompareTag("Obstacle"))
         {
             TakeDamage();
-            //Vector3 impactDirection = collision.gameObject.transform.position - transform.position;
-            //Hurt(impactDirection);
-        }
-    }
-
-    protected void Hurt(Vector3 impactDirection)
-    {
-        if (Mathf.Abs(impactDirection.x) > Mathf.Abs(impactDirection.y))
-        {
-            TakeDamage();
-        }
-        else
-        {
-            //if (impactDirection.y > 0.0f)
-            //{
-                TakeDamage();
-            //}
-            //audioSource.PlayOneShot(killsound);
-            //Vector2 vel = rb2D.velocity;
-            //vel.y = jumpforce;
-            //rb2d.velocity = vel;
         }
     }
 
