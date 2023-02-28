@@ -198,7 +198,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 41288047}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Obstacles
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -997,7 +997,7 @@ GameObject:
   - component: {fileID: 646938672}
   - component: {fileID: 646938675}
   - component: {fileID: 646938676}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Tilemap
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2038,7 +2038,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1197794692}
   - component: {fileID: 1197794691}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Grid
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2191,6 +2191,58 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1642400178, guid: d132c01a0c1fb4154afee9db8b0b031f, type: 3}
+      propertyPath: deathAnimation.Array.size
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 1642400178, guid: d132c01a0c1fb4154afee9db8b0b031f, type: 3}
+      propertyPath: deathAnimation.Array.data[0]
+      value: 
+      objectReference: {fileID: 21300000, guid: 3a2e0a85606b4413195f56239ba33501, type: 3}
+    - target: {fileID: 1642400178, guid: d132c01a0c1fb4154afee9db8b0b031f, type: 3}
+      propertyPath: deathAnimation.Array.data[1]
+      value: 
+      objectReference: {fileID: 21300000, guid: 61cd4497d719742e5bb286010a3a2cf7, type: 3}
+    - target: {fileID: 1642400178, guid: d132c01a0c1fb4154afee9db8b0b031f, type: 3}
+      propertyPath: deathAnimation.Array.data[2]
+      value: 
+      objectReference: {fileID: 21300000, guid: 86794eb35879e4df7b3be21d91f089d1, type: 3}
+    - target: {fileID: 1642400178, guid: d132c01a0c1fb4154afee9db8b0b031f, type: 3}
+      propertyPath: deathAnimation.Array.data[3]
+      value: 
+      objectReference: {fileID: 21300000, guid: 8d66bf512470248c6a02ec8976a71a9f, type: 3}
+    - target: {fileID: 1642400178, guid: d132c01a0c1fb4154afee9db8b0b031f, type: 3}
+      propertyPath: deathAnimation.Array.data[4]
+      value: 
+      objectReference: {fileID: 21300000, guid: d82d1405c12ef455aba1f790200e6e34, type: 3}
+    - target: {fileID: 1642400178, guid: d132c01a0c1fb4154afee9db8b0b031f, type: 3}
+      propertyPath: deathAnimation.Array.data[5]
+      value: 
+      objectReference: {fileID: 21300000, guid: 56e314ca9a788473a87be4cc5976f09d, type: 3}
+    - target: {fileID: 1642400178, guid: d132c01a0c1fb4154afee9db8b0b031f, type: 3}
+      propertyPath: deathAnimation.Array.data[6]
+      value: 
+      objectReference: {fileID: 21300000, guid: 7f788d919873a4bf480bfc5f6b47a399, type: 3}
+    - target: {fileID: 1642400178, guid: d132c01a0c1fb4154afee9db8b0b031f, type: 3}
+      propertyPath: deathAnimation.Array.data[7]
+      value: 
+      objectReference: {fileID: 21300000, guid: 42c2e3c199c5047bd829c3a17003ffe6, type: 3}
+    - target: {fileID: 1642400178, guid: d132c01a0c1fb4154afee9db8b0b031f, type: 3}
+      propertyPath: deathAnimation.Array.data[8]
+      value: 
+      objectReference: {fileID: 21300000, guid: cb430625f44074bd3bac571ec3195ce4, type: 3}
+    - target: {fileID: 1642400178, guid: d132c01a0c1fb4154afee9db8b0b031f, type: 3}
+      propertyPath: deathAnimation.Array.data[9]
+      value: 
+      objectReference: {fileID: 21300000, guid: 7f788d919873a4bf480bfc5f6b47a399, type: 3}
+    - target: {fileID: 1642400178, guid: d132c01a0c1fb4154afee9db8b0b031f, type: 3}
+      propertyPath: deathAnimation.Array.data[10]
+      value: 
+      objectReference: {fileID: 21300000, guid: 42c2e3c199c5047bd829c3a17003ffe6, type: 3}
+    - target: {fileID: 1642400178, guid: d132c01a0c1fb4154afee9db8b0b031f, type: 3}
+      propertyPath: deathAnimation.Array.data[11]
+      value: 
+      objectReference: {fileID: 21300000, guid: cb430625f44074bd3bac571ec3195ce4, type: 3}
     - target: {fileID: 378542357825129636, guid: d132c01a0c1fb4154afee9db8b0b031f, type: 3}
       propertyPath: m_RootOrder
       value: 4
@@ -3042,17 +3094,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: Spikes
       objectReference: {fileID: 0}
+    - target: {fileID: 5046283485923834453, guid: dff6e7b51f69d4e418e5f872402c4973, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 5046283485923834455, guid: dff6e7b51f69d4e418e5f872402c4973, type: 3}
       propertyPath: m_RootOrder
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5046283485923834455, guid: dff6e7b51f69d4e418e5f872402c4973, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.09
+      value: -0.18
       objectReference: {fileID: 0}
     - target: {fileID: 5046283485923834455, guid: dff6e7b51f69d4e418e5f872402c4973, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.34
+      value: 1.25
       objectReference: {fileID: 0}
     - target: {fileID: 5046283485923834455, guid: dff6e7b51f69d4e418e5f872402c4973, type: 3}
       propertyPath: m_LocalPosition.z

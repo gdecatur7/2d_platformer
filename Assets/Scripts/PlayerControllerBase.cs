@@ -19,6 +19,7 @@ public class PlayerControllerBase : MonoBehaviour
 
     public LayerMask groundLayer;
 
+    public Sprite[] deathAnimation;
 
     private Vector2 input;
     private float isGrounded;
@@ -146,9 +147,27 @@ public class PlayerControllerBase : MonoBehaviour
         HeartsUI.RemoveHeart();
         if (lives <= 0)
         {
+            StartCoroutine(DeathAnimation(2)); // coroutine not working
             SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         }
         StartCoroutine(Invulnerability(1));
+    }
+
+    IEnumerator DeathAnimation(float time)
+    {
+        int dIndex = 0;
+        for (int i = 0; i < time / 0.2f; i++)
+        {
+            if (dIndex < deathAnimation.Length)
+            {
+                sRenderer.sprite = deathAnimation[dIndex];
+                dIndex++;
+                yield return new WaitForSeconds(0.1f);
+                sRenderer.sprite = deathAnimation[dIndex];
+                dIndex++;
+                yield return new WaitForSeconds(0.1f);
+            }
+        }
     }
 
     IEnumerator Invulnerability(float time)
