@@ -24,8 +24,12 @@ public class PlayerControllerBase : MonoBehaviour
     private float isGrounded;
     private Animator2D animation;
 
+    private int lives = 3;
+    private bool invulnerable = false;
+    public SpriteRenderer sRenderer;
+
     protected Rigidbody2D rb2D;
-    protected float offScreenVal; //TODO
+    protected float offScreenVal; //TODO delete??
 
     // Start is called before the first frame update
     protected virtual void Start()
@@ -41,6 +45,7 @@ public class PlayerControllerBase : MonoBehaviour
 
     }
 
+    // todo delete??
     protected bool isOnScreen()
     {
         if (transform.position.y < offScreenVal)
@@ -120,4 +125,64 @@ public class PlayerControllerBase : MonoBehaviour
             rb2D.gravityScale = gravityScale;
         }
     }
+
+    private void OnCollisionStay2D(Collision2D collision)
+    {
+        Controller2D controller = collision.gameObject.GetComponent<Controller2D>();
+        if (controller != null && collision.gameObject.CompareTag("Obstacle"))
+        {
+            TakeDamage();
+            //Vector3 impactDirection = collision.gameObject.transform.position - transform.position;
+            //Hurt(impactDirection);
+        }
+    }
+
+    protected void Hurt(Vector3 impactDirection)
+    {
+        if (Mathf.Abs(impactDirection.x) > Mathf.Abs(impactDirection.y))
+        {
+            TakeDamage();
+        }
+        else
+        {
+            //if (impactDirection.y > 0.0f)
+            //{
+                TakeDamage();
+            //}
+            //audioSource.PlayOneShot(killsound);
+            //Vector2 vel = rb2D.velocity;
+            //vel.y = jumpforce;
+            //rb2d.velocity = vel;
+        }
+    }
+
+    public void TakeDamage()
+    {
+        if (invulnerable)
+        {
+            return;
+        }
+        //audioSource.PlayOneShot(hitsound);
+        lives--;
+        HeartsUI.RemoveHeart();
+        if (lives <= 0)
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        }
+        StartCoroutine(Invulnerability(1));
+    }
+
+    IEnumerator Invulnerability(float time)
+    {
+        invulnerable = true;
+        for (int i = 0; i < time / 0.2f; i++)
+        {
+            sRenderer.color = Color.red;
+            yield return new WaitForSeconds(0.1f);
+            sRenderer.color = Color.white;
+            yield return new WaitForSeconds(0.1f);
+        }
+        invulnerable = false;
+    }
+
 }

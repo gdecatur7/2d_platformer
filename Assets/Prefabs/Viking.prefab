@@ -214,3 +214,4 @@ MonoBehaviour:
   groundLayer:
     serializedVersion: 2
     m_Bits: 64
+  sRenderer: {fileID: 7462885304825701285}
