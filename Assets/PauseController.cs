@@ -1,11 +1,14 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PauseController : MonoBehaviour
 {
 
     public GameObject pauseMenu;
+    public string MainMenuScene;
+    public string levelToSkip;
     // Start is called before the first frame update
     void Start()
     {
@@ -31,8 +34,17 @@ public class PauseController : MonoBehaviour
 
     public void unpause()
     {
-        Debug.Log("HELLO");
         pauseMenu.SetActive(false);
         Time.timeScale = 1f;
+    }
+
+    public void skipLevel()
+    {
+        SceneManager.LoadScene(levelToSkip);
+    }
+
+    public void exitToMenu()
+    {
+        SceneManager.LoadScene(MainMenuScene);
     }
 }

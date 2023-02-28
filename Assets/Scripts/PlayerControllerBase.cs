@@ -10,6 +10,7 @@ public class PlayerControllerBase : MonoBehaviour
     public float jumpForce;
     public float gravityScale = 10;
     public float fallingGravityScale = 40;
+    public float invulnerabilityTime = 2;
 
     //Action keys
     public KeyCode upKey;
@@ -150,7 +151,7 @@ public class PlayerControllerBase : MonoBehaviour
             StartCoroutine(DeathAnimation(2)); // coroutine not working
             SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         }
-        StartCoroutine(Invulnerability(1));
+        StartCoroutine(Invulnerability(invulnerabilityTime));
     }
 
     IEnumerator DeathAnimation(float time)
