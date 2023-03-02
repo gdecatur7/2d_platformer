@@ -160,7 +160,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4af437017683e420c87f4ef732572aa1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 8
+  speed: 10
   jumpForce: 30
   gravityScale: 10
   fallingGravityScale: 30
@@ -187,6 +187,6 @@ CircleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.23469567, y: -0.3627113}
+  m_Offset: {x: -0.3736391, y: -0.3627113}
   serializedVersion: 2
-  m_Radius: 0.5662292
+  m_Radius: 0.49341965
