@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 9127391136506181621}
   - component: {fileID: 1642400178}
   - component: {fileID: -7601530395823099694}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Viking
   m_TagString: Player
   m_Icon: {fileID: 0}

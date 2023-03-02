@@ -25,7 +25,7 @@ public class Spikes : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D col2d)
     {
-
+        Debug.Log("HELLO");
         if (col2d.collider.tag != "Player")
         {
             Physics2D.IgnoreCollision(col2d.collider, col2d.otherCollider);
