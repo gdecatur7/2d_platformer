@@ -63,25 +63,27 @@ public class PlayerControllerBase : MonoBehaviour
      */
     public bool IsGrounded()
     {
-        float reducePosition = (float)0.28;
+        
         float distance = 1.0f;
-        Vector2 position = transform.position;
+        float playerRadius = 0.49f;
+            //(sRenderer.sprite.bounds.size.x / 2);
+        
+        Vector2 positionSide1 = new Vector2(transform.position.x + playerRadius, transform.position.y);
+        Vector2 positionSide2 = new Vector2(transform.position.x - playerRadius, transform.position.y);
         Vector2 direction = Vector2.down;
 
-        if (animation.isPlayerFlipped())
-        {
-            reducePosition = -reducePosition;
-        }
-        position.x -= reducePosition;
+        
+       
 
-
-        RaycastHit2D hit = Physics2D.Raycast(position, direction,
+        RaycastHit2D hit1 = Physics2D.Raycast(positionSide1, direction,
             distance, groundLayer);
-        if (hit.collider != null)
+        RaycastHit2D hit2 = Physics2D.Raycast(positionSide2, direction,
+            distance, groundLayer);
+        if (hit1.collider != null || hit2.collider != null)
         {
             return true;
         }
-        Debug.DrawRay(position, direction * 1, Color.green);
+        Debug.DrawRay(positionSide1, direction * 1, Color.green);
 
 
         return false;
