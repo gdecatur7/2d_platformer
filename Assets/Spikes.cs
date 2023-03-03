@@ -9,6 +9,7 @@ public class Spikes : MonoBehaviour
     Rigidbody2D rb2d;
     Collider2D col2d;
     public float spikeSpeed;
+    protected PlayerControllerBase controller;
 
     void Start()
     {
@@ -25,14 +26,16 @@ public class Spikes : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D col2d)
     {
-        Debug.Log("HELLO");
+        
         if (col2d.collider.tag != "Player")
         {
             Physics2D.IgnoreCollision(col2d.collider, col2d.otherCollider);
         } else
         {
-            Debug.Log("HELLO");
-            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+
+            col2d.collider.gameObject.GetComponent<PlayerControllerBase>().setDying();
+            Physics2D.IgnoreCollision(col2d.collider, col2d.otherCollider);
+            rb2d.velocity = new Vector2(0, 0);
         }
     }
 }

@@ -166,3 +166,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spikeSpeed: 0.5
+  controller: {fileID: 1642400178, guid: d132c01a0c1fb4154afee9db8b0b031f, type: 3}

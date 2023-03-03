@@ -10,7 +10,8 @@ public class Animator2D : MonoBehaviour
         walk,
         jump,
         walkRight,
-        walkLeft
+        walkLeft,
+        death
     }
 
     public float animationFPS;
@@ -19,6 +20,7 @@ public class Animator2D : MonoBehaviour
     public Sprite[] jumpAnimation;
     public Sprite[] walkRightAnimation;
     public Sprite[] walkLeftAnimation;
+    public Sprite[] deathAnimation;
 
     protected Rigidbody2D rb2D;
     //protected PlayerControllerBase controller;
@@ -40,6 +42,7 @@ public class Animator2D : MonoBehaviour
         animationAtlas.Add(AnimationState.jump, jumpAnimation);
         animationAtlas.Add(AnimationState.walkRight, walkRightAnimation);
         animationAtlas.Add(AnimationState.walkLeft, walkLeftAnimation);
+        animationAtlas.Add(AnimationState.death, deathAnimation);
 
         rb2D = GetComponent<Rigidbody2D>();
         mySpriteRenderer = GetComponent<SpriteRenderer>();
@@ -56,7 +59,6 @@ public class Animator2D : MonoBehaviour
         {
             TransitionToState(newState);
         }
-
         frameTimer -= Time.deltaTime;
         if (frameTimer <= 0.0f)
         {
@@ -90,6 +92,10 @@ public class Animator2D : MonoBehaviour
 
     AnimationState GetAnimationState()
     {
+        if (controller.getDying())
+        {
+            return AnimationState.death;
+        }
         if (!controller.IsGrounded())
         {
             return AnimationState.jump;
@@ -98,6 +104,7 @@ public class Animator2D : MonoBehaviour
         {
             return AnimationState.walk;
         }
+        
         return AnimationState.idle;
     }
 
@@ -105,4 +112,5 @@ public class Animator2D : MonoBehaviour
     {
         return flipped;
     }
+
 }
