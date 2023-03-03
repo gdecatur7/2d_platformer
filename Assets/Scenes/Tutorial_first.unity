@@ -3112,6 +3112,10 @@ PrefabInstance:
       propertyPath: doorTwo
       value: 
       objectReference: {fileID: 1333606266}
+    - target: {fileID: 18302158362748415, guid: def4742c7e4e14cc9985aa43cbb9f88c, type: 3}
+      propertyPath: nextScene
+      value: Scroll2
+      objectReference: {fileID: 0}
     - target: {fileID: 2036462366105327414, guid: def4742c7e4e14cc9985aa43cbb9f88c, type: 3}
       propertyPath: m_Name
       value: LevelEnder
