@@ -7,12 +7,24 @@ using UnityEngine.UI;
 public class MenuButtons : MonoBehaviour
 {
     public Button startButton;
+    public bool playVikingMusic;
     
     //public void Start()
     //{
     //    startButton.onClick.AddListener(() => LoadScene("GraceTile"));
     //    startButton.onClick.AddListener(delegate { LoadScene("GraceTile"); });
     //}
+    public void Start()
+    {
+        if (playVikingMusic)
+        {
+            AudioManager.Instance.PlayVikingMusic();
+        }
+        else
+        {
+            AudioManager.Instance.PlayChaoticMusic();
+        }
+    }
 
     public void LoadScene(string scene)
     {

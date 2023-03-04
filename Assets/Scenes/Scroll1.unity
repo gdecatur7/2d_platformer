@@ -425,6 +425,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   startButton: {fileID: 1649213463}
+  playVikingMusic: 1
 --- !u!1 &453432363
 GameObject:
   m_ObjectHideFlags: 0
