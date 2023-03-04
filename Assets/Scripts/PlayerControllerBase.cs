@@ -151,6 +151,8 @@ public class PlayerControllerBase : MonoBehaviour
         {
             TakeDamage();
         }
+      
+
     }
 
     public void TakeDamage()
