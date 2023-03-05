@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2391202658181727002}
-  m_Layer: 9
+  m_Layer: 6
   m_Name: PatrolPoint2
   m_TagString: Untagged
   m_Icon: {fileID: -5397416234189338067, guid: 0000000000000000d000000000000000, type: 0}
@@ -24,7 +24,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2391202658181727013}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.01, y: -1.77, z: 0}
+  m_LocalPosition: {x: -0.01, y: -0.7, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -44,7 +44,7 @@ GameObject:
   - component: {fileID: 2391202658323246262}
   - component: {fileID: 632640362}
   - component: {fileID: 632640361}
-  m_Layer: 9
+  m_Layer: 6
   m_Name: MovingPlatformForPuzzle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -196,7 +196,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2391202659106247240}
-  m_Layer: 9
+  m_Layer: 6
   m_Name: PatrolPoint1
   m_TagString: Untagged
   m_Icon: {fileID: -5397416234189338067, guid: 0000000000000000d000000000000000, type: 0}
@@ -211,7 +211,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2391202659106247243}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.05, y: 3.02, z: 0}
+  m_LocalPosition: {x: 0.05, y: 3.72, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

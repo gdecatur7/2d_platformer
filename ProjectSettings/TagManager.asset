@@ -8,6 +8,7 @@ TagManager:
   - Platform
   - Obstacle
   - Trap
+  - Wall
   layers:
   - Default
   - TransparentFX
@@ -16,8 +17,8 @@ TagManager:
   - Water
   - UI
   - GroundLayer
-  - 
-  - 
+  - Flames
+  - Player
   - 
   - 
   - 
