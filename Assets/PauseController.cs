@@ -41,10 +41,12 @@ public class PauseController : MonoBehaviour
     public void skipLevel()
     {
         SceneManager.LoadScene(levelToSkip);
+        Time.timeScale = 1f;
     }
 
     public void exitToMenu()
     {
         SceneManager.LoadScene(MainMenuScene);
+        Time.timeScale = 1f;
     }
 }
