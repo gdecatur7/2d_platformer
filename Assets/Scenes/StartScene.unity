@@ -713,7 +713,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   startButton: {fileID: 2063224210}
-  playVikingMusic: 1
+  clipType: viking
 --- !u!1 &1791976309
 GameObject:
   m_ObjectHideFlags: 0
@@ -907,6 +907,7 @@ MonoBehaviour:
   backgroundMusic: {fileID: 2023813314}
   vikingMusic: {fileID: 8300000, guid: e2531f9560c974eb58ccf928d33499c5, type: 3}
   chaoticMusic: {fileID: 8300000, guid: b3cb4b3d1751b44b8bb09b1aff7460bc, type: 3}
+  successMusic: {fileID: 0}
 --- !u!82 &2023813314
 AudioSource:
   m_ObjectHideFlags: 0

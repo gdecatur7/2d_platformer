@@ -7,7 +7,7 @@ using UnityEngine.UI;
 public class MenuButtons : MonoBehaviour
 {
     public Button startButton;
-    public bool playVikingMusic;
+    public string clipType;
     
     //public void Start()
     //{
@@ -16,13 +16,17 @@ public class MenuButtons : MonoBehaviour
     //}
     public void Start()
     {
-        if (playVikingMusic)
+        if (clipType == "viking")
         {
             AudioManager.Instance.PlayVikingMusic();
         }
-        else
+        else if (clipType == "chaotic")
         {
             AudioManager.Instance.PlayChaoticMusic();
+        }
+        else
+        {
+            AudioManager.Instance.PlaySuccessMusic();
         }
     }
 

@@ -577,6 +577,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   startButton: {fileID: 96658939}
+  clipType: chaotic
 --- !u!114 &575214569
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -1104,7 +1104,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   startButton: {fileID: 1599483760}
-  playVikingMusic: 0
+  clipType: success
 --- !u!114 &1887630800
 MonoBehaviour:
   m_ObjectHideFlags: 0

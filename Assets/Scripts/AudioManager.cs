@@ -7,9 +7,10 @@ public class AudioManager : MonoBehaviour
     public AudioSource backgroundMusic;
     public AudioClip vikingMusic;
     public AudioClip chaoticMusic;
+    public AudioClip successMusic;
     public static AudioManager Instance = null;
-    private bool playingViking = false;
-    private bool playingChaotic = false;
+    private string clipName;
+    
     // Start is called before the first frame update
     private void Awake()
     {
@@ -27,24 +28,32 @@ public class AudioManager : MonoBehaviour
 
     public void PlayVikingMusic()
     {
-        if (playingViking)
+        if (clipName == "viking" )
         {
             return;
         }
         backgroundMusic.clip = vikingMusic;
+        clipName = "viking";
         backgroundMusic.Play();
-        playingViking = true;
-        playingChaotic = false;
     }
     public void PlayChaoticMusic()
     {
-        if (playingChaotic)
+        if (clipName == "chaotic")
         {
             return;
         }
         backgroundMusic.clip = chaoticMusic;
+        clipName = "chaotic";
         backgroundMusic.Play();
-        playingChaotic = true;
-        playingViking = false;
+    }
+    public void PlaySuccessMusic()
+    {
+        if (clipName == "success")
+        {
+            return;
+        }
+        backgroundMusic.clip = successMusic;
+        clipName = "success";
+        backgroundMusic.Play();
     }
 }
