@@ -71,7 +71,7 @@ public class PlayerControllerBase : MonoBehaviour
     {
         
         float distance = 1.0f;
-        float playerRadius = 0.49f;
+        float playerRadius = 0.493f;
             //(sRenderer.sprite.bounds.size.x / 2);
         
         Vector2 positionSide1 = new Vector2(transform.position.x + playerRadius, transform.position.y);

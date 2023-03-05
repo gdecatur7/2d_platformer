@@ -4717,6 +4717,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 654173199448483136, guid: 314b802dfb8b94398909cf1f15b3e1c0, type: 3}
+      propertyPath: m_Size.x
+      value: 1.5380569
+      objectReference: {fileID: 0}
+    - target: {fileID: 654173199448483136, guid: 314b802dfb8b94398909cf1f15b3e1c0, type: 3}
+      propertyPath: m_Size.y
+      value: 0.8885937
+      objectReference: {fileID: 0}
+    - target: {fileID: 654173199448483136, guid: 314b802dfb8b94398909cf1f15b3e1c0, type: 3}
+      propertyPath: m_Offset.x
+      value: 0.049996138
+      objectReference: {fileID: 0}
+    - target: {fileID: 654173199448483136, guid: 314b802dfb8b94398909cf1f15b3e1c0, type: 3}
+      propertyPath: m_Offset.y
+      value: -0.055703163
+      objectReference: {fileID: 0}
     - target: {fileID: 654173199448483138, guid: 314b802dfb8b94398909cf1f15b3e1c0, type: 3}
       propertyPath: m_Name
       value: Button (1)

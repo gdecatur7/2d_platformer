@@ -907,7 +907,7 @@ MonoBehaviour:
   backgroundMusic: {fileID: 2023813314}
   vikingMusic: {fileID: 8300000, guid: e2531f9560c974eb58ccf928d33499c5, type: 3}
   chaoticMusic: {fileID: 8300000, guid: b3cb4b3d1751b44b8bb09b1aff7460bc, type: 3}
-  successMusic: {fileID: 0}
+  successMusic: {fileID: 8300000, guid: 5963019cd13fc449c81514dd60002efc, type: 3}
 --- !u!82 &2023813314
 AudioSource:
   m_ObjectHideFlags: 0
@@ -919,10 +919,10 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_Volume: 0.494
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
