@@ -1538,6 +1538,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 7799913274577785971, guid: fea1230f6ae3549b09ce61a310b6287e, type: 3}
+      propertyPath: levelToSkip
+      value: Scroll3
+      objectReference: {fileID: 0}
     - target: {fileID: 7799913275163793754, guid: fea1230f6ae3549b09ce61a310b6287e, type: 3}
       propertyPath: m_Name
       value: CanvasForMenu
@@ -3536,7 +3540,7 @@ PrefabInstance:
       objectReference: {fileID: 1757293075}
     - target: {fileID: 18302158362748415, guid: def4742c7e4e14cc9985aa43cbb9f88c, type: 3}
       propertyPath: nextScene
-      value: Level 3
+      value: Scroll3
       objectReference: {fileID: 0}
     - target: {fileID: 2036462366105327414, guid: def4742c7e4e14cc9985aa43cbb9f88c, type: 3}
       propertyPath: m_Name
